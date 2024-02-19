@@ -1,1 +1,7 @@
 This is a change to test branching and merging!
+I've added even more text now to text branching ib the remote Repo.
+What I'll do is:
+    -   Add and commit changes to the local "branch-testing" branch.
+    -   Merge the branch to the local "main".
+    -   Push local "main" to REMOTE "testing_branch".
+    -   Maybe merge to the local "main".
