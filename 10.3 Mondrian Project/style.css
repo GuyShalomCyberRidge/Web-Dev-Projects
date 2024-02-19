@@ -1,0 +1,78 @@
+
+body{
+    background-color: burlywood;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container{
+    width: 748px;
+    height: 748px;
+    background-color: black;
+    display: grid;
+    grid-template: 414px 130px 155px 22px
+     / 320px 198px 153px 50px;
+    gap: 9px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+/*.grid-container > div{
+    opacity: 30%;
+}*/
+
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+.white{
+    background-color: #F0F1EC;
+}
+
+.white-1{
+    grid-column: span 3;
+}
+
+.white-2{
+    grid-row: span 2;
+}
+
+.white-3{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.white-4{
+    grid-row: span 2;
+}
+
+#red{
+    background-color: #E72F24; 
+}
+
+#blue{
+    background-color: #004592; 
+    border-bottom: 10px solid;
+}
+
+#yellow{
+    background-color: #F9D01E; 
+}
+
+#black{
+    background-color: #232629; 
+}

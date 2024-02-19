@@ -1,0 +1,112 @@
+
+body{
+    background-color: rgb(56, 56, 56);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0px;
+    margin: 0;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.pricing-container{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pricing-plan{
+    width: 250px;
+    background-color: rgb(30, 137, 218);
+    text-align: center;
+    border-radius: 32px;
+    padding: 48px;
+    flex-shrink: 0;
+}
+
+.pricing-plan:nth-last-child(1){
+    border-radius: 8px;
+}
+
+.pricing-plan:hover{
+    transition: background-color 500ms ease;
+    background-color: rgb(46, 150, 231);
+}
+
+.pricing-plan:nth-last-child(1):hover{
+    transition: background-color 500ms ease;
+    background-color: rgb(234, 207, 0);
+}
+
+
+.plan-title{
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 6px;
+}
+
+.plan-price{
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.plan-features{
+    list-style-type: none;
+    padding: 0;
+}
+
+.plan-button{
+    background-color: orange;
+    font-family: "Sono", sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.plan-button:hover{
+    background-color: rgb(255, 211, 129);
+}
+
+#footer{
+    color: rgb(117, 117, 117);
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+@media(max-width: 1250px){
+
+    body{
+        position: relative;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    .pricing-container{
+        flex-direction: column;
+        height:fit-content;
+        margin-bottom: 48px;
+    }
+
+    #footer{
+        bottom: 6px;
+        right: 6px;
+    }
+}
