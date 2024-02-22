@@ -1,8 +1,1 @@
-var obj = {
-    name: "Guy",
-    fname: "Shalom",
-    friends: ["Ari", "Elad"]
-}
-
-console.log(obj.name)
-console.log(obj[0])
+console.log("Reorgenize the folders and add a new 'React' folder.".length)
